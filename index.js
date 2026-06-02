@@ -32,4 +32,5 @@ const meuCarrinho = new carrinho();
 meuCarrinho.adicionarProduto(sintaralho);
 meuCarrinho.adicionarProduto(pokemon);
 console.log(`Total do carrinho: R$${meuCarrinho.calcularTotal()}`);
-
+console.log(meuCarrinho.itens[0].nome);
+console.log(meuCarrinho.itens[1].nome);
